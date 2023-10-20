@@ -1,0 +1,16 @@
+create database prova;
+use prova;
+
+drop database prova;
+
+create table aluno (
+	matricula long,
+    nome varchar(70),
+	curso varchar(80),
+	turno varchar(20),
+	duracao int ,
+	valorCurso double,
+    PRIMARY KEY (matricula(255))
+);
+
+select * from aluno;
